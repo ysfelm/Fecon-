@@ -1,0 +1,68 @@
+/* Style for the header */
+header {
+  background-color: #0a0273;
+  color: white;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-top: 5px;
+  width: 1342px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the logo */
+
+
+/* Style for the navigation menu */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0px;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-image {
+  padding-left: 0px;
+  padding-bottom: 40px;
+  width: 300px;
+  padding-top: 20px;
+  height: 120px;
+}
+
+.container {
+  display: inline;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
